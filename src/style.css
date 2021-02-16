@@ -12,3 +12,12 @@
 	height: 25px;
 	width: 90px;
 }
+
+.leftstr, .rightstr {
+	width: 50%;
+	float: left;
+}
+
+.rightstr {
+	float: right;
+}
