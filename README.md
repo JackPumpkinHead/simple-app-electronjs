@@ -1,1 +1,1 @@
-# simple-app-electronjs
+#Этот репозиторий создан с целью обучения работе с electronjs
