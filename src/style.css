@@ -1,6 +1,7 @@
 .btn {
 	height: 25px;
 	width: 150px;
+	margin-left: 20%;
 }
 
 .form-control {
@@ -13,11 +14,19 @@
 	width: 90px;
 }
 
-.leftstr, .rightstr {
-	width: 50%;
-	float: left;
+
+ul.hr {
+	margin: 0;
+	padding: 4px;
 }
 
-.rightstr {
-	float: right;
+ul.hr li {
+	display: inline;
+	margin: 40px;
+	padding: 3px;
+	font-style: italic;
+}
+
+.btn_downbox{
+	
 }

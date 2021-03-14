@@ -10,3 +10,8 @@ function fahrenheitToCelcius(){
     let celcius = (fahrenheit - 32) * 5 / 9;
     document.getElementById('celcius').value = celcius;
 }
+
+function myHero(){
+	let hero = document.getElementById('hero').value;
+	document.getElementById('hero').value = hero
+}

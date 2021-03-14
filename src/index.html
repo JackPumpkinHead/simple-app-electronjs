@@ -13,22 +13,40 @@
 	      	<button class="btn">ВВОД</button>
 		</div>
 	    <div>
-	    	<p class="leftstr">k</p>
-	    	<p class="centerstr">m</p>
-	    	<p class="rightstr">n</p>
+	    	<ul class="hr">
+		    	<li>k</li>
+		    	<li>m</li>
+		    	<li>n</li>
+	    	</ul>
 	    	<input type="text" class="form-control-mini" id="" onkeyup="">
 	    	<input type="text" class="form-control-mini" id="" onkeyup="">
 	    	<input type="text" class="form-control-mini" id="" onkeyup="">
+	    	<button class="btn">КОДИРОВАТЬ</button>
 	    </div>
-	    <h4>Кодовая комбинация</h4>
-	<div class="form-group col-md-3">
-	      <input type="text" class="form-control" id="" onkeyup="">
-	</div>
+		<div class="form-group col-md-3">
+			<ul class="hr">
+				<li>
+				<h4>Кодовая комбинация</h4>
+			      <input type="text" class="form-control" id="hero" onkeyup="">
+			  	</li>
+			  	<li>
+			    <form action="select1.php" method="post">
+				   	<p><select class="btn_downbox" size="1" >
+				    <option onclick="myHero()" name="Чебурашка">Чебурашка</option>
+				    <option value="Крокодил Гена">Крокодил Гена</option>
+				    <option value="Шапокляк">Шапокляк</option>
+				    <option value="Крыса Лариса">Крыса Лариса</option>
+				   	</select></p>
+				   	
+	  			</form>
+	  			</li>
+  			</ul>
+		</div>
 	     
  
  	
  		
-	     <button class="btn">КОДИРОВАТЬ</button>
+	     
 	 
     <script src="renderer.js"></script>
   </body>
